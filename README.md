@@ -80,7 +80,7 @@ URL Shortener is an api script to shorten the URL and also to view the number of
 ```
 
 ## Installation
-Please take a pull or download the source code. Put the folder as a standalone inside the required project. Next change the **hostname**, **username**, **databasename**, **password**, and the **base url** from the **config.json** file in the root.
+Please take a pull or download the source code. Put the folder as a standalone inside the required project. Next change the **hostname**, **username**, **databasename**, **password**, and the **base url** from the **config.json** file in the root. Also import the database file from the **NOTES** folder in the root.
 
 ## Test Cases
 Please check the following test cases:
