@@ -85,8 +85,7 @@ Please take a pull or download the source code. Put the folder as a standalone i
 ## Tests
 Please check the following tests:
 
-1. Shorting of URL : 
-*https://www.example.com/track-url*
+1. Shorting of URL : *https://www.example.com*
 
 2. Retrieving of URL : *by directly opening the short url*
 
