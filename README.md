@@ -82,8 +82,8 @@ URL Shortener is an api script to shorten the URL and also to view the number of
 ## Installation
 Please take a pull or download the source code. Put the folder as a standalone inside the required project. Next change the **hostname**, **username**, **databasename**, **password**, and the **base url** from the **config.json** file in the root. Also import the database file from the **NOTES** folder in the root.
 
-## Test Cases
-Please check the following test cases:
+## Tests
+Please check the following tests:
 
 1. Shorting of URL : 
 *https://www.example.com/track-url*
@@ -91,6 +91,13 @@ Please check the following test cases:
 2. Retrieving of URL : *by directly opening the short url*
 
 3. Retrieve URL Tracking Status : *https://www.example.com/track-url*
+
+## Video
+Please check the two videos provided inside the **video** folder in the root.
+
+1. Video for the API Endpoints
+
+2. Video for the Test
 
 ## License
 [The Unlicense](https://choosealicense.com/licenses/unlicense/)
