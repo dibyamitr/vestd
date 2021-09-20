@@ -1,0 +1,9 @@
+RewriteEngine On
+
+RewriteRule ^$ index.php?page=short [NC]
+RewriteRule ^track-url$ index.php?page=urlstatus [NC]
+RewriteRule ^short/(.*)$ index.php?page=retrieve&shorturl=$1 [NC]
+
+RewriteRule ^api/v1/(.*)/set-short-url$ api.php?apikey=$1&method=setshorturl [NC]
+RewriteRule ^api/v1/(.*)/call-full-url$ api.php?apikey=$1&method=callfullurl [NC]
+RewriteRule ^api/v1/(.*)/track-url-record$ api.php?apikey=$1&method=urltrackrecord [NC]
